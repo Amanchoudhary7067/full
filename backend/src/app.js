@@ -3,6 +3,7 @@ import cors from "cors"
 import cookieParser from "cookie-parser"
 // ye sare coonfigure app banne ke baad bante hai
 const app = express()
+// middleware mein use hoat hai
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
     credentials:true
